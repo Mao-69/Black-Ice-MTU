@@ -28,7 +28,7 @@ sudo ./bim
 ```
 # To compile on Windows:
 ```
-gcc -Wall -Wextra -o bim.exe bim.c -liphlpapi
+gcc -Wall -Wextra -o bim.exe bim.c -liphlpapi -lws2_32
 ```
 # To compile on Mac OS:
 ```
