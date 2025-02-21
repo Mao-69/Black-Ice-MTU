@@ -1,5 +1,6 @@
 # Black-Ice-MTU
 auto set mtu for networks who limit vpn usage
+```
 // A program to auto detect and change the MTU(maximum transmission unit)
 // for VPN's running on networks who throttle or block VPN traffic.
 
@@ -11,3 +12,4 @@ auto set mtu for networks who limit vpn usage
 // that look for the typical signatures of VPN traffic.
 // Minimizing performance degradation by ensuring that
 // all packets are transmitted smoothly without being fragmented excessively.
+```
