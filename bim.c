@@ -32,7 +32,7 @@ void print_banner() {
     printf("    But for those who know how to shift\n");
     printf("    the strings, the world becomes an open\n");
     printf("    system. Black Ice is the key. The MTU\n");
-    printf("    is the path. Break the firewall—reclaim\n");
+    printf("    is the path. Break the firewall reclaim\n");
     printf("    the data.\"\n");
     printf("----------------------------------------------------------------\n");
 }
