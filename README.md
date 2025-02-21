@@ -25,6 +25,7 @@ Options:
   -iface <name>    Specify interface name
   -h               Show this help message
 ----------------------------------------------------------------
+Running in Auto Mode...
 Scanning for VPN interface...
 Using interface: tun0
 Current MTU: 1500
