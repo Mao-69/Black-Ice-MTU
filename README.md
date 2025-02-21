@@ -19,3 +19,18 @@ auto set mtu for networks who limit vpn usage
 // Minimizing performance degradation by ensuring that
 // all packets are transmitted smoothly without being fragmented excessively.
 ```
+# To compile on Linux systems:
+```
+gcc -Wall -Wextra -Wno-unused-parameter -o bim bim.c
+```
+```
+sudo ./bim
+```
+# To compile on Windows:
+```
+gcc -Wall -Wextra -o bim.exe bim.c -liphlpapi
+```
+# To compile on Mac OS:
+```
+clang -Wall -Wextra -o bim bim.c
+```
