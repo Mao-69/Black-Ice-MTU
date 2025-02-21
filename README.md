@@ -1,4 +1,4 @@
-#Black Ice MTU v1.2
+# Black Ice MTU v1.2
 Black Ice MTU is a cross-platform network optimization tool designed to detect and adjust the Maximum Transmission Unit (MTU) for VPN interfaces. It helps bypass network restrictions and improve performance by automatically finding or setting an optimal MTU value. The program supports Windows, Linux, and macOS, offering both automatic optimization and manual MTU configuration via command-line options. Key features include VPN interface detection, ping-based MTU testing with timeout and retry logic, detailed logging, and graceful cleanup on interruption. Ideal for users seeking to overcome VPN throttling or packet fragmentation issues.
 ```
 // A program to auto detect and change the MTU(maximum transmission unit)
