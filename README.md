@@ -25,15 +25,6 @@ Options:
   -iface <name>    Specify interface name
   -h               Show this help message
 ----------------------------------------------------------------
-Running in Auto Mode...
-Scanning for VPN interface...
-Using interface: tun0
-Current MTU: 1500
-Optimizing MTU (testing from 1500 to 1280)...
-Testing MTU 1500: Failed
-Testing MTU 1490: Failed
-Testing MTU 1480: Success
-Successfully set MTU to 1480
 ```
 
 # To compile on Linux systems:
