@@ -22,6 +22,19 @@ auto set mtu for networks who limit vpn usage
 // Minimizing performance degradation by ensuring that
 // all packets are transmitted smoothly without being fragmented excessively.
 ```
+```
+----------------------------------------------------------------
+Black Ice MTU v1.2 - Network Optimization Tool
+----------------------------------------------------------------
+"Break through network restrictions by optimizing MTU"
+
+Usage: bim [options]
+Options:
+  -custom <mtu>    Set specific MTU value (1280-1500)
+  -iface <name>    Specify interface name
+  -h               Show this help message
+```
+
 # To compile on Linux systems:
 ```
 gcc -Wall -Wextra -Wno-unused-parameter -o bim bim.c
