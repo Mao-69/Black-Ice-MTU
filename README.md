@@ -29,6 +29,12 @@ gcc -Wall -Wextra -Wno-unused-parameter -o bim bim.c
 ```
 sudo ./bim
 ```
+Usage examples:
+- Auto-optimize: ```sudo ./bim```
+- Custom MTU: ```sudo ./bim -custom 1390```
+- Specific interface: ```sudo ./bim -iface tun0```
+- Combined: ```sudo ./bim -iface tun0 -custom 1390```
+- Help: ```sudo ./bim -h```
 # To compile on Windows:
 ```
 gcc -Wall -Wextra -o bim.exe bim.c -liphlpapi -lws2_32
