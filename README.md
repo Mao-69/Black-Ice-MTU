@@ -39,7 +39,20 @@ Usage examples:
 ```
 gcc -Wall -Wextra -o bim.exe bim.c -liphlpapi -lws2_32
 ```
+Usage examples:
+- Run cmd as sys admin
+- Auto-optimize: ```bim```
+- Custom MTU: ```bim -custom 1390```
+- Specific interface: ```bim -iface tun0```
+- Combined: ```bim -iface tun0 -custom 1390```
+- Help: ```bim -h```
 # To compile on Mac OS:
 ```
 clang -Wall -Wextra -o bim bim.c
 ```
+Usage examples:
+- Auto-optimize: ```sudo ./bim```
+- Custom MTU: ```sudo ./bim -custom 1390```
+- Specific interface: ```sudo ./bim -iface tun0```
+- Combined: ```sudo ./bim -iface tun0 -custom 1390```
+- Help: ```sudo ./bim -h```
